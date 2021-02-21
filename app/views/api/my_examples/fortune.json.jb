@@ -1,0 +1,3 @@
+fortunes = ["You will experience a windfall.", "Watch out for potholes.", "DON'T look behind you.", "Beware of bees."]
+
+{ fortune: "#{fortunes.sample} Your lucky number is #{rand(1..60)}" }
